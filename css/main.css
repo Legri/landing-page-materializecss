@@ -1,0 +1,75 @@
+body {
+  background-color: #bdbdbd;
+}
+
+.nav-wrapper {
+  background: #00695c;
+  position: fixed;
+}
+
+.side-nav li > a {
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 2em;
+}
+
+.bgsectgr {
+  background: #eceff1;
+  padding: 120px 0;
+}
+
+section .row {
+  margin: 0;
+  padding: 0;
+}
+
+#download-button {
+  background: #00695c;
+}
+
+h1 {
+  color: #00695c;
+}
+
+.icon-block img {
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.page-footer {
+  background: #00695c;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.hrcenter {
+  position: relative;
+  top: -15px;
+  height: 0;
+}
+.hrcenter::before {
+  content: "";
+  padding-right: 250px;
+  border-top: 1px solid #00695c;
+  line-height: 0em;
+}
+
+.navbar-fixed {
+  top: -6px;
+}
+.navbar-fixed .nav-wrapper {
+  background: #056e61;
+}
+
+#About {
+  position: relative;
+}
+
+.About {
+  position: absolute;
+  top: -200px;
+  z-index: 2000;
+}
