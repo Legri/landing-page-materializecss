@@ -1,4 +1,4 @@
-$mainbgcl:#00695c 
+$mainbgcl:#00695c
 $mainmobbgcl: #5e35b1
 $whitecl:#fff
 $bgsectgr:#eceff1
@@ -9,41 +9,46 @@ body
 .nav-wrapper
 	background: $mainbgcl
 	position : fixed
-
-#mobile-demo
+	text-transform: uppercase
 	
 	
 .side-nav li>a
-	color: $whitecl
 	font-size: 1.1em
 	line-height: 2em
-
+	color: #fff
+	font-family: bold
+#mobile-demo
+	li:first-child
+		margin-top: 30px
+	background: $mainbgcl
+	
+#sidenav-overlay
+	background-color: rgba(0,0,0,0)
 
 .bgsectgr
 	background: $bgsectgr
-	padding: 120px 0
+	padding: 20px 0
 
-section
-	.row
-		margin: 0
-		padding: 0
+
 
 #download-button
 	background: $mainbgcl
 h1
 	color: $mainbgcl
-
+	
 .icon-block
 	img
 		border-radius: 8px
 		margin: 0 auto
 
+
 .page-footer
 	background: $mainbgcl
-h3
+h2
 	letter-spacing: 5px
 	text-transform: uppercase
-
+	font-family: bold
+	font-weight: black
 	
 .hrcenter
 	position: relative
@@ -61,12 +66,29 @@ h3
 	.nav-wrapper
 		background: $mainbgcl+5
 
-#About
+
+
+.parallax-container
 	position: relative
-.About
-	position: absolute
-	top: -200px
-	z-index: 2000
+	.opas
+		position: absolute
+		top: 0
+		width: 100%
+		height: 100%
+		background: #009688
+		opacity: 0.2
 
 
+.parallaxText
+	padding-top: 20%
+	h1, h5,
+		color: #ffffff
+		position: relative
+		font-family: bold
+
+.row
+	margin: 10px 0
+
+.brand-logo
+	font-family: bold
 
